@@ -1,0 +1,134 @@
+[
+  {
+    "id": "S01",
+    "skenario": "Input kosong",
+    "input": {},
+    "diharapkan": {"kode_cheat": null, "nama": "Tidak ada", "persen": 0.0},
+    "langkah": "Tidak ada gejala yang dijawab, sehingga tidak ada aturan yang dieksekusi dan hasilnya kosong."
+  },
+  {
+    "id": "S02",
+    "skenario": "Satu gejala G01 keyakinan 1.0",
+    "input": {"G01": 1.0},
+    "diharapkan": {"kode_cheat": "C01", "nama": "Aimbot", "persen": 70.0},
+    "langkah": "R01: 1.0 x 0.7 = 0.70. Persentase = 0.70 x 100 = 70.0%."
+  },
+  {
+    "id": "S03",
+    "skenario": "Satu gejala G02 keyakinan 0.4",
+    "input": {"G02": 0.4},
+    "diharapkan": {"kode_cheat": "C01", "nama": "Aimbot", "persen": 36.0},
+    "langkah": "R02: 0.4 x 0.9 = 0.36. Persentase = 0.36 x 100 = 36.0%."
+  },
+  {
+    "id": "S04",
+    "skenario": "Dua gejala satu cheat G01 dan G02 keyakinan 1.0",
+    "input": {"G01": 1.0, "G02": 1.0},
+    "diharapkan": {"kode_cheat": "C01", "nama": "Aimbot", "persen": 97.0},
+    "langkah": "R01: 1.0 x 0.7 = 0.70. R02: 1.0 x 0.9 = 0.90. Gabungan = 0.70 + 0.90 x (1 - 0.70) = 0.97. Persentase 97.0%."
+  },
+  {
+    "id": "S05",
+    "skenario": "Empat gejala satu cheat G01 sampai G04 keyakinan 1.0",
+    "input": {"G01": 1.0, "G02": 1.0, "G03": 1.0, "G04": 1.0},
+    "diharapkan": {"kode_cheat": "C01", "nama": "Aimbot", "persen": 99.4},
+    "langkah": "R01 0.70; R02 0.90 menjadi 0.97; R03 0.60 menjadi 0.97 + 0.60 x 0.03 = 0.988; R04 0.50 menjadi 0.988 + 0.50 x 0.012 = 0.994. Persentase 99.4%."
+  },
+  {
+    "id": "S06",
+    "skenario": "Satu gejala G05 keyakinan 1.0",
+    "input": {"G05": 1.0},
+    "diharapkan": {"kode_cheat": "C02", "nama": "Wallhack", "persen": 80.0},
+    "langkah": "R05: 1.0 x 0.8 = 0.80. Persentase 80.0%."
+  },
+  {
+    "id": "S07",
+    "skenario": "Tiga gejala satu cheat G05, G06, G07 dengan keyakinan campuran",
+    "input": {"G05": 0.7, "G06": 0.4, "G07": 1.0},
+    "diharapkan": {"kode_cheat": "C02", "nama": "Wallhack", "persen": 96.8},
+    "langkah": "R05: 0.7 x 0.8 = 0.56. R06: 0.4 x 0.7 = 0.28, gabungan 0.56 + 0.28 x 0.44 = 0.6832. R07: 1.0 x 0.9 = 0.90, gabungan 0.6832 + 0.90 x 0.3168 = 0.96832 sehingga 96.8%."
+  },
+  {
+    "id": "S08",
+    "skenario": "Gejala campur antar cheat G02 dan G07 keyakinan 1.0",
+    "input": {"G02": 1.0, "G07": 1.0},
+    "diharapkan": {"kode_cheat": "C01", "nama": "Aimbot", "persen": 90.0},
+    "langkah": "R02: 1.0 x 0.9 = 0.90 untuk C01. R07: 1.0 x 0.9 = 0.90 untuk C02. Keduanya 90.0%, peringkat teratas C01 karena kode lebih kecil."
+  },
+  {
+    "id": "S09",
+    "skenario": "Gejala campur antar cheat G03 dan G08 keyakinan 0.4",
+    "input": {"G03": 0.4, "G08": 0.4},
+    "diharapkan": {"kode_cheat": "C03", "nama": "No Recoil", "persen": 36.0},
+    "langkah": "R03: 0.4 x 0.6 = 0.24 untuk C01. R08: 0.4 x 0.9 = 0.36 untuk C03. Teratas C03 dengan 36.0%."
+  },
+  {
+    "id": "S10",
+    "skenario": "Dua gejala satu cheat G10 dan G11 keyakinan 0.7 dan 1.0",
+    "input": {"G10": 0.7, "G11": 1.0},
+    "diharapkan": {"kode_cheat": "C04", "nama": "Speedhack", "persen": 95.6},
+    "langkah": "R10: 0.7 x 0.8 = 0.56. R11: 1.0 x 0.9 = 0.90. Gabungan = 0.56 + 0.90 x 0.44 = 0.956. Persentase 95.6%."
+  },
+  {
+    "id": "S11",
+    "skenario": "Semua gejala dijawab 1.0",
+    "input": {"G01": 1.0, "G02": 1.0, "G03": 1.0, "G04": 1.0, "G05": 1.0, "G06": 1.0, "G07": 1.0, "G08": 1.0, "G09": 1.0, "G10": 1.0, "G11": 1.0},
+    "diharapkan": {"kode_cheat": "C01", "nama": "Aimbot", "persen": 99.4},
+    "langkah": "C01 = 0.994; C02 = 0.8 + 0.7 x 0.2 + 0.9 x 0.06 = 0.994; C03 = 0.9 + 0.8 x 0.1 = 0.98; C04 = 0.8 + 0.9 x 0.2 = 0.98. C01 dan C02 sama 99.4%, C01 menang karena kode lebih kecil."
+  },
+  {
+    "id": "S12",
+    "skenario": "Satu gejala G06 keyakinan 1.0",
+    "input": {"G06": 1.0},
+    "diharapkan": {"kode_cheat": "C02", "nama": "Wallhack", "persen": 70.0},
+    "langkah": "R06: 1.0 x 0.7 = 0.70. Persentase 70.0%."
+  },
+  {
+    "id": "S13",
+    "skenario": "Satu gejala G09 keyakinan 0.7",
+    "input": {"G09": 0.7},
+    "diharapkan": {"kode_cheat": "C03", "nama": "No Recoil", "persen": 56.0},
+    "langkah": "R09: 0.7 x 0.8 = 0.56. Persentase 56.0%."
+  },
+  {
+    "id": "S14",
+    "skenario": "Satu gejala G04 keyakinan 0.4",
+    "input": {"G04": 0.4},
+    "diharapkan": {"kode_cheat": "C01", "nama": "Aimbot", "persen": 20.0},
+    "langkah": "R04: 0.4 x 0.5 = 0.20. Persentase 20.0%."
+  },
+  {
+    "id": "S15",
+    "skenario": "Dua gejala satu cheat G10 dan G11 keyakinan campuran",
+    "input": {"G10": 0.4, "G11": 1.0},
+    "diharapkan": {"kode_cheat": "C04", "nama": "Speedhack", "persen": 93.2},
+    "langkah": "R10: 0.4 x 0.8 = 0.32. R11: 1.0 x 0.9 = 0.90. Gabungan = 0.32 + 0.90 x 0.68 = 0.932. Persentase 93.2%."
+  },
+  {
+    "id": "S16",
+    "skenario": "No Recoil dari senjata berat terasa ringan (G13)",
+    "input": {
+      "G13": 1.0
+    },
+    "diharapkan": {
+      "kode_cheat": "C03",
+      "nama": "No Recoil",
+      "persen": 80.0
+    },
+    "langkah": "R13: 1.0 x 0.8 = 0.80. Persentase 80.0%."
+  },
+  {
+    "id": "S17",
+    "skenario": "No Recoil dari senjata stabil saat bergerak dan hentakan besar (G12 dan G13)",
+    "input": {
+      "G12": 1.0,
+      "G13": 1.0
+    },
+    "diharapkan": {
+      "kode_cheat": "C03",
+      "nama": "No Recoil",
+      "persen": 94.0
+    },
+    "langkah": "R12: 1.0 x 0.7 = 0.70. R13: 1.0 x 0.8 = 0.80. Gabungan = 0.70 + 0.80 x 0.30 = 0.94. Persentase 94.0%."
+  }
+]

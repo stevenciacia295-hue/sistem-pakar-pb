@@ -1,0 +1,93 @@
+{
+  "G01": [
+    "Apakah dia sering mendapat headshot dibanding pemain lain di ronde yang sama?",
+    "Apakah headshot-nya terlihat terlalu banyak dan konsisten dari ronde ke ronde?",
+    "Apakah hampir semua kill-nya headshot?",
+    "Apakah persentase headshot dia terasa tidak masuk akal dibanding pemain normal?",
+    "Apakah dia sering headshot bahkan di situasi yang sulit?"
+  ],
+  "G02": [
+    "Apakah crosshair-nya langsung menempel ke kepala tanpa digeser dulu?",
+    "Apakah bidikannya terlihat otomatis mengunci ke kepala, bukan digerakkan manual?",
+    "Apakah arah bidikannya langsung pas ke kepala secara instan saat musuh muncul?",
+    "Apakah gerakan mouse-nya terlihat kaku atau patah-patah sebelum mengunci target?",
+    "Apakah bidikannya seperti ditarik magnet ke kepala musuh?"
+  ],
+  "G03": [
+    "Apakah dia menembak sangat cepat begitu musuh muncul?",
+    "Apakah reaksinya terasa tidak manusiawi, seolah menembak sebelum sempat berkedip?",
+    "Apakah dia menembak tepat di detik musuh muncul tanpa jeda?",
+    "Apakah waktu reaksinya selalu super cepat, bahkan saat tidak siap?",
+    "Apakah dia tetap menang adu tembak saat bertemu mendadak di tikungan?"
+  ],
+  "G04": [
+    "Apakah tembakannya sering kena dari jarak sangat jauh?",
+    "Apakah akurasi jarak jauhnya terasa terlalu bagus untuk pemain biasa?",
+    "Apakah dia pernah kill dari jarak jauh dengan senjata yang seharusnya sulit dipakai?",
+    "Apakah tembakannya hampir tidak pernah meleset walau target jauh dan bergerak?",
+    "Apakah dia lebih sering kena sasaran jarak jauh dibanding pemain lain?"
+  ],
+  "G05": [
+    "Apakah dia membidik atau menghadap musuh di balik tembok sebelum musuh terlihat?",
+    "Apakah dia sering mengarahkan senjata ke dinding tepat di posisi musuh bersembunyi?",
+    "Apakah dia menembak ke arah musuh di balik penghalang yang belum terlihat?",
+    "Apakah crosshair-nya sering mengikuti musuh yang masih tertutup tembok?",
+    "Apakah dia seperti tahu ada musuh di balik dinding dan langsung membidiknya?"
+  ],
+  "G06": [
+    "Apakah dia selalu tahu posisi musuh, bahkan saat musuh sembunyi atau flank?",
+    "Apakah dia sering muncul tepat di belakang atau samping musuh seolah tahu rutenya?",
+    "Apakah dia menghindari atau menyergap musuh dengan terlalu tepat?",
+    "Apakah dia seperti sudah tahu di mana kamu bersembunyi?",
+    "Apakah dia jarang kaget atau terkena serangan dari belakang?"
+  ],
+  "G07": [
+    "Apakah bidikannya mengikuti gerakan musuh yang berjalan di balik penghalang?",
+    "Apakah dia bisa melacak musuh di balik objek padahal musuh tidak terlihat?",
+    "Apakah dia menembak mengikuti pergerakan musuh di balik dinding atau kotak?",
+    "Apakah dia menahan arah bidik tepat di jalur musuh yang tertutup?",
+    "Apakah dia seperti bisa melihat musuh melewati tembok saat berpindah posisi?"
+  ],
+  "G08": [
+    "Apakah semburan peluru full-auto terlihat lurus tanpa naik?",
+    "Apakah senjatanya nyaris tidak bergoyang walau ditembakkan terus-menerus?",
+    "Apakah pola tembakannya selalu rapi dan lurus tanpa hentakan?",
+    "Apakah recoil senjatanya terlihat jauh lebih kecil dibanding pemain lain?",
+    "Apakah dia bisa menyemprot panjang tanpa menarik mouse ke bawah?"
+  ],
+  "G09": [
+    "Apakah peluru dia hampir selalu masuk ke satu titik walau ditembak beruntun?",
+    "Apakah penyebaran pelurunya terlihat sangat kecil padahal senjatanya biasanya liar?",
+    "Apakah tembakannya tetap mengumpul di satu area saat menembak terus-menerus?",
+    "Apakah senjatanya terasa terlalu stabil dibanding senjata sama milik orang lain?",
+    "Apakah semburan tembakannya terlihat nyaris tanpa spread?"
+  ],
+  "G10": [
+    "Apakah dia bergerak jauh lebih cepat dari pemain lain?",
+    "Apakah kecepatan larinya terasa di luar batas normal dibanding karakter lain?",
+    "Apakah dia pernah melesat berpindah tempat dengan sangat cepat?",
+    "Apakah dia sulit dikejar atau diikuti karena geraknya terlalu cepat?",
+    "Apakah dia sering berpindah posisi dengan kecepatan yang tidak wajar?"
+  ],
+  "G11": [
+    "Apakah dia pernah tiba-tiba berpindah posisi seperti teleport?",
+    "Apakah karakternya sering muncul di tempat lain tanpa terlihat berjalan?",
+    "Apakah dia seperti menghilang dari satu titik lalu muncul mendadak di titik lain?",
+    "Apakah posisinya sering melompat jauh dalam sekejap tanpa lintasan gerak?",
+    "Apakah karakternya pernah terlihat berkedip atau loncat ke posisi baru?"
+  ],
+  "G12": [
+    "Apakah senjatanya tetap stabil saat menembak sambil bergerak atau melompat?",
+    "Apakah dia menembak sambil berlari atau melompat tanpa bidikannya goyang?",
+    "Apakah tembakannya tetap rapi walau dia menembak sambil bergerak?",
+    "Apakah senjatanya tetap stabil saat dipakai menembak sambil melompat?",
+    "Apakah akurasinya sama saat bergerak seperti saat diam?"
+  ],
+  "G13": [
+    "Apakah senjata berhentakan besar terasa ringan saat dia pakai?",
+    "Apakah dia memakai senjata berat tapi recoil-nya seperti senjata ringan?",
+    "Apakah senjata dengan hentakan besar tetap mudah dia kendalikan?",
+    "Apakah senjata berat terlihat ringan saat ditembakkan olehnya?",
+    "Apakah senjata berhentakan besar tetap halus dan terkendali saat dia tembak?"
+  ]
+}
